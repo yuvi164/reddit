@@ -37,6 +37,20 @@ class LinksController < ApplicationController
     end
   end
 
+  # Add Upvote Method
+  def upvote
+      @link = Link.find(params[:id])
+      @link.upvote_by current_user
+      redirect_back fallback_location: root_path
+  end
+  # Add Downvote Method
+    def downvote
+      @link = Link.find(params[:id])
+      @link.downvote_by current_user
+    redirect_back fallback_location: root_path
+    end
+
+
   # PATCH/PUT /links/1
   # PATCH/PUT /links/1.json
   def update

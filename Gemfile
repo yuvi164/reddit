@@ -5,6 +5,7 @@ ruby '2.5.0'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+gem 'acts_as_votable'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
