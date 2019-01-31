@@ -10,6 +10,8 @@ gem 'simple_form'
 gem 'record_tag_helper'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'pg'
+gem 'rails_12factor'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
