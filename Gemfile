@@ -7,7 +7,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'# Bundle edge Rails instead: gem 'rail
 gem 'rails', '~> 5.2.2'
 gem 'acts_as_votable'
 gem 'simple_form'
-gem 'record_tag_helper'
+#gem 'record_tag_helper'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 gem 'pg'
